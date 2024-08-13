@@ -1,6 +1,6 @@
 # Social Links Profile
 
-![](./screenshot.jpg)
+![Social Links Profile](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Screenshots/aoxnsmiw2uw9gb0bvp1c.jpg)
 
 ## Overview
 
@@ -23,7 +23,7 @@ Users should be able to:
 
 ## Links
 
-- [Solution](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-social-links-profile-using-css-flexbox-y292qYCzYY)
 - [Live](https://pr0g-alt.github.io/Social-Links-Profile)
 
 ## Built with
