@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey-900);
+  min-height: 100vh;
+}
+
+p {
+  font-size: 14px;
+  margin: 0;
+}
+
+main {
+  margin: 25px;
+  padding: 40px;
+  max-width: 400px;
+  width: 100%;
+  height: fit-content;
+  background-color: var(--grey-800);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.avatar {
+  width: 95px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 1.55em;
+  font-weight: 600;
+}
+
+.info p {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 18px;
+}
+
+.links button {
+  border: none;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 15px;
+  color: white;
+  background-color: var(--grey-700);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.15s;
+  -webkit-transition: 0.15s;
+  -moz-transition: 0.15s;
+  -ms-transition: 0.15s;
+  -o-transition: 0.15s;
+}
+
+.links button:hover {
+  color: var(--grey-700);
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  main {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 365px) {
+  .job-title {
+    font-size: 11px;
+  }
+}
