@@ -24,7 +24,7 @@ Users should be able to:
 ## Links
 
 - [Solution](https://www.frontendmentor.io/solutions/responsive-social-links-profile-using-css-flexbox-y292qYCzYY)
-- [Live](https://pr0g-alt.github.io/Social-Links-Profile)
+- [Live](https://yousseftawakal.github.io/Social-Links-Profile)
 
 ## Built with
 
@@ -36,7 +36,7 @@ Users should be able to:
 
 Feel free to reach out to me if you have any questions or suggestions:
 
-- GitHub: [pr0G-alt](https://github.com/pr0G-alt)
+- GitHub: [pr0G-alt](https://github.com/yousseftawakal)
 - Email: pr0.G@outlook.com
 
 ## Acknowledgments
